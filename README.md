@@ -22,7 +22,6 @@ EventPro is a MERN stack single-page application that allows users to create, ma
 
 # Overview
 
-## The Challenge:
 
 ## The Challenge
 
