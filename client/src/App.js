@@ -17,6 +17,8 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import CreateEvent from "./components/CreateEvent";
 import MyEvents from "./components/MyEvents";
+import AllEvents from "./components/AllEvents";
+
 //import AllEvents from "./components/AllEvents";
 
 const httpLink = createHttpLink({
@@ -52,6 +54,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/createEvent" element={<CreateEvent />} />
             <Route path="/MyEvents" element={<MyEvents />} />
+            <Route path="/allEvents" element={<AllEvents />} />
             <Route
               path="*"
               element={<h1 className="display-2">Wrong page!</h1>}
