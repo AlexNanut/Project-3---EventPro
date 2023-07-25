@@ -1,16 +1,7 @@
 import Contact from "../components/Contact";
 import "../index.css";
-import eventImage from "../assets/event.jpg";
+import eventImage from "../assets/images/events.png"
 
-function Donation() {
-  return (
-    <div className="donation-container">
-      <h2 className="donation-heading">Donation</h2>
-      <p>If you'd like to support our work, you can donate using the button below:</p>
-      <button className="donation-button">Donate</button>
-    </div>
-  );
-}
 
 const Home = () => {
   return (
@@ -22,7 +13,6 @@ const Home = () => {
       </div>
       <div className="container">
         <Contact />
-        <Donation />
       </div>
     </div>
   );

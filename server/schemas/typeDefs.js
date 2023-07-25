@@ -2,7 +2,7 @@ const { gql } = require("apollo-server-express");
 
 const typeDefs = gql`
   type User {
-    id: ID
+    _id: ID
     username: String
     email: String
     password: String
@@ -12,7 +12,7 @@ const typeDefs = gql`
   }
 
   type Event {
-    id: ID!
+    _id: ID!
     title: String!
     description: String!
     cost: Float!
@@ -23,6 +23,7 @@ const typeDefs = gql`
     comments: [Comment]
   }
 type Comment {
+  _id: ID
     commentText: String
     date: String
     user: User
@@ -39,6 +40,7 @@ type Comment {
     user(id: ID!): User
     events: [Event]!
     event(id: ID!): Event
+    me: User 
   }
 
   type Mutation {
@@ -50,7 +52,6 @@ type Comment {
       description: String!
       cost: Float!
       location: String!
-      user: ID!
       date: String!
     ): Event
     updateEvent(
