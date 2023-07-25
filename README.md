@@ -68,7 +68,7 @@ The application is accessible on various devices and screen sizes.
 
 
 ## GitHub Repository:
-[GitHub Repository:](https://github.com/ThomasCalle/UTOR-PROJECT-03)
+[GitHub Repository:](https://github.com/AlexNanut/Project-3---EventPro)
 
 
 ## Screenshots:
@@ -135,4 +135,4 @@ The application is accessible on various devices and screen sizes.
 
 ## Author
 
-Follow me on Github at [Alex](htpps://github.com/AlexNanut)
+Follow me on Github at [Alex] (https://github.com/AlexNanut)
