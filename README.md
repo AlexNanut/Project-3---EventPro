@@ -135,4 +135,4 @@ The application is accessible on various devices and screen sizes.
 
 ## Author
 
-Follow me on Github at [Alex] (https://github.com/AlexNanut)
+Follow me on Github at [AlexNanut](https://github.com/AlexNanut)
