@@ -7,7 +7,7 @@ export const GET_ALL_USERS = gql`
       username
       email
       events {
-        id
+        _id
         title
         cost
         description
@@ -24,7 +24,7 @@ export const GET_ONE_USER = gql`
       username
       email
       events {
-        id
+        _id
         title
         description
         cost
@@ -38,16 +38,12 @@ export const GET_ONE_USER = gql`
 export const GET_ALL_EVENTS = gql`
   query Events {
     events {
-      id
+      _id
       title
       description
       cost
       location
       date
-      user {
-        id
-        username
-      }
     }
   }
 `;
@@ -55,7 +51,7 @@ export const GET_ALL_EVENTS = gql`
 export const GET_ONE_EVENT = gql`
   query Query($eventId: ID!) {
     event(id: $eventId) {
-      id
+      _id
       title
       description
       cost
