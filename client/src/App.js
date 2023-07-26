@@ -22,8 +22,8 @@ import AllEvents from "./components/AllEvents";
 //import AllEvents from "./components/AllEvents";
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:3001/graphql",
-  //uri: "/graphql",
+  //uri: "http://localhost:3001/graphql",
+  uri: "/graphql",
 });
 
 const authLink = setContext((_, { headers }) => {
