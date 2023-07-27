@@ -25,14 +25,14 @@ EventPro is a MERN stack single-page application that allows users to create, ma
 
 ## The Challenge
 
-I took on the challenge of creating a comprehensive event management application that boasts both a user-friendly interface and extensive functionality. The primary goal was to enable users to effortlessly create, edit, and manage their events, while also providing them with the convenience of discovering and attending events organized by others. I'm proud to share that my application is responsive and accessible, catering to a wide range of devices and screen sizes.
+I took on the challenge of creating a comprehensive event management application that boasts both a user-friendly interface and extensive functionality. The primary goal was to enable users to effortlessly create, edit, and manage their events.
 
 My objectives for this challenge were as follows:
 
 1. Authentication, allowing users to sign up, log in, and log out securely.
 2. Enable users to create, add, delete, and edit events. 
-3. Allow users to browse and filter events created by other users based on specific criteria such as location, date, time, and category.
-4. Provide featurse for users to mark attendance at events view the events they are attending.
+3. Allow users to browse and filter events.
+4. Provide features for users to mark attendance at events.
 5. Ensure that the application is responsive and accessible on various devices and screen sizes.
 
 
@@ -41,7 +41,7 @@ My objectives for this challenge were as follows:
 ```
 I want to be able to sign up, log in, and log out of the application securely.
 I want to create, add, delete, and edit events with necessary details such as location, date, time, and category.
-I want to browse events created by other users and filter them based on location, date, time, and category.
+I want to browse events created by other users.
 I want to mark my attendance to events and view the events I am attending.
 I want the application to be responsive and accessible on various devices and screen sizes.
 ```
@@ -49,7 +49,7 @@ I want the application to be responsive and accessible on various devices and sc
 ## Acceptance Criteria:
 ```
 Users can sign up, log in, and log out of the application securely.
-Logged-in users can create events, providing all required details (location, date, time, and category).
+Logged-in users can create events.
 Users can add, delete, and edit their events.
 The application has a responsive and polished UI.
 The application is accessible on various devices and screen sizes.
@@ -57,10 +57,9 @@ The application is accessible on various devices and screen sizes.
 
 
 ## Usage Instructions:
-1. Sign up or log in to access the JDT Event Manager application securely.
-2. Create, add, delete, and edit events by providing necessary details such as location, date, time, and category.
-3. Browse and filter events created by other users based on criteria like location, date, time, and category.
-4. Mark your attendance for events and view the list of events you are attending.
+1. Sign up or log in to access the EventPro application securely.
+2. Create, add, delete, and edit events.
+
 
 ## Deployed Herok Application Link:
 [Deployed Heroku Application Link:] (https:/herokuapp.com/)
@@ -84,31 +83,23 @@ The application is accessible on various devices and screen sizes.
 3. Open the integrated terminal of the document and complete the respective installation guides provided in "Built With" to ensure the cloned documentation will operate.
 
 ## Built With:
-- Saiyan Pride
+
 - Dynamic JavaScript
-- JSON: [JSON](https://www.npmjs.com/package/json)
-- Mongoose: [7.0.3](https://www.npmjs.com/package/mongoose)
-- Express: [4.18.2](https://www.npmjs.com/package/express)
-- Node.js: [16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
-- MongoDB: [Website](https://www.mongodb.com/)
-- Nodemon: [2.0.12](https://www.npmjs.com/package/nodemon/v/2.0.12)
-- Fontawesome: [6.4.0](https://www.npmjs.com/package/@fortawesome/)
-- dotenv: [16.0.3](https://www.npmjs.com/package/dotenv)
-- Express: [4.18.2](https://www.npmjs.com/package/express)
-- GraphQL: [16.6.0](https://www.npmjs.com/package/graphql)
-- JsonWebToken: [9.0.0](https://www.npmjs.com/package/jsonwebtoken)
-- Mongodb: [5.1.0](https://www.npmjs.com/package/mongodb)
-- Mongoose: [7.0.3](https://www.npmjs.com/package/mongoose)
-- React: [18.2.0](https://www.npmjs.com/package/react)
-- React-Dom: [18.2.0](https://www.npmjs.com/package/react-dom)
-- React: [18.2.0](https://reactjs.org)
-- GraphQL: [16.6.0](https://graphql.org)
-- MongoDB: [5.1.0](https://www.mongodb.com)
-- Mongoose ODM: [7.0.3](https://mongoosejs.com)
-- JWT: [9.0.0](https://jwt.io)
-- Heroku: [Website](https://www.heroku.com/platform)
-- License Badge: [Shields.io](https://shields.io/)
-- Visual Studio Code: [Website](https://code.visualstudio.com/)
+- JSON
+- Mongoose
+- Express
+- Node.js
+- MongoDB
+- Fontawesome
+- GraphQL
+- Mongodb
+- Mongoose
+- React
+- React-Dom
+- GraphQL
+- MongoDB
+- Mongoose ODM
+- Visual Studio Code
 
 ## What I Learned:
 1. How to build a full-stack application using the MERN stack (MongoDB, Express, React, and Node.js).
@@ -118,13 +109,12 @@ The application is accessible on various devices and screen sizes.
 5. Deploying a full MERN stack application on Heroku.
 
 ### Continued Development:
-1. Intellect, Discipline & Strength.
-2. Improve the user interface and user experience with more advanced design and functionality.
-3. Add a feature to allow users to create private events, which are accessible only to invited attendees.
-4. Implement real-time notifications for event updates and reminders.
-5. Integrate a map view to display the location of events.
-6. Add social media sharing functionality to promote events.
-7. Implement event ratings and reviews.
+
+1. Improve the user interface and user experience with more advanced design and functionality.
+2. Add a feature to allow users to create private events, which are accessible only to invited attendees.
+3. Implement real-time notifications for event updates and reminders.
+4. Integrate a map view to display the location of events.
+5. Implement event ratings and reviews.
 
 
 ## License & Copyright ©
